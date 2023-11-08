@@ -31,7 +31,7 @@ input{
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: pink;
+    background: linear-gradient(135deg,rgb(244, 0, 207), rgb(7, 218, 255));
     
 }
 button{
