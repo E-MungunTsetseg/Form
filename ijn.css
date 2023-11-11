@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.jin{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 10px;
+    width:340px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(145deg,rgb(141, 3, 183), rgb(232, 0, 232));
+    height: 100vh;
+    width: 100vw;
+}
+input{
+    display:flex;
+    align-items: center;
+    margin: 1rem;
+    border: none;
+    border-bottom: black 1px solid ;
+    width:300px;
+}
+button{
+    margin: 1rem;
+    padding: 0.75rem;
+    border: none;
+    width: 300px;
+    background:linear-gradient(145deg,rgb(141, 3, 183), rgb(232, 0, 232));
+    color:white ;
+}
+p{
+    display:flex;
+    justify-content: center;
+    color: rgb(167, 167, 167);
+}
+h1{
+    margin: 1rem;
+}
