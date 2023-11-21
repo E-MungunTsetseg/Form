@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/364a802c85.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./jimin.css">
 </head>
 <body>
@@ -11,22 +15,50 @@
         <div class="jimin">
             <h2>Login in to Clarity</h2>
             <div class="input">
-                <p>Email address</p>
-                <input placeholder="">
+
+                <div>
+                    <p>Email address</p>
+                    <input placeholder="" type="email" class="form-input">
+                </div>
+
                 <div class="pa">
                     <p>Password</p>
                     <a href="#">Forgot passowrd</a>
                 </div>
-                <input placeholder="">
+                <span class="password-field">
+                    <input type="password" class="form-input" id="password-field">
+                    <div class="toggle-container">
+                        <div class="togggle-icon"><i class="fa-solid fa-eye" id="icon"></i></div>
+                        <input type="checkbox" class="toggle-button">
+                    </div>
+                </span>
+
+
+                <div class="remember">
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <p>Remember me for 30 days</p>
+                    </div>
+                </div>
+
+
             </div>
-            <button>Log in</button>
-            <p>or</p>
-            <button>Login in with Google</button>
+            <button class="login-button">Log in</button>
+            <div class="line-container">
+                <div>
+                    <div class="line"></div>
+                    <p>or</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+            
+            <button class="google-login-button">Login in with Google</button>
                 <div class="ap">
                     <p>Don't have a Clarity account?</p>
                     <a href="#">Register now</a>
                 </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
